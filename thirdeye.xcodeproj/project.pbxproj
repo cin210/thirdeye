@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EE7E59C1545D9D4001F74BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE7E59B1545D9D4001F74BF /* UIKit.framework */; };
+		4EE7E59E1545D9D4001F74BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE7E59D1545D9D4001F74BF /* Foundation.framework */; };
+		4EE7E5A01545D9D4001F74BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE7E59F1545D9D4001F74BF /* CoreGraphics.framework */; };
+		4EE7E5A61545D9D4001F74BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EE7E5A41545D9D4001F74BF /* InfoPlist.strings */; };
+		4EE7E5A81545D9D4001F74BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7E5A71545D9D4001F74BF /* main.m */; };
+		4EE7E5AC1545D9D4001F74BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7E5AB1545D9D4001F74BF /* AppDelegate.m */; };
+		4EE7E5AF1545D9D4001F74BF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7E5AE1545D9D4001F74BF /* RootViewController.m */; };
+		4EE7E5B21545D9D4001F74BF /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7E5B11545D9D4001F74BF /* DataViewController.m */; };
+		4EE7E5B51545D9D4001F74BF /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7E5B41545D9D4001F74BF /* ModelController.m */; };
+		4EE7E5B81545D9D4001F74BF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE7E5B61545D9D4001F74BF /* MainStoryboard_iPhone.storyboard */; };
+		4EE7E5BB1545D9D4001F74BF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE7E5B91545D9D4001F74BF /* MainStoryboard_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EE7E5971545D9D4001F74BF /* thirdeye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thirdeye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE7E59B1545D9D4001F74BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4EE7E59D1545D9D4001F74BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4EE7E59F1545D9D4001F74BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4EE7E5A31545D9D4001F74BF /* thirdeye-Info.plist */ = {isa = PBXFileReference; path = "thirdeye-Info.plist"; sourceTree = "<group>"; };
+		4EE7E5A51545D9D4001F74BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EE7E5A71545D9D4001F74BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EE7E5A91545D9D4001F74BF /* thirdeye-Prefix.pch */ = {isa = PBXFileReference; path = "thirdeye-Prefix.pch"; sourceTree = "<group>"; };
+		4EE7E5AA1545D9D4001F74BF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EE7E5AB1545D9D4001F74BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EE7E5AD1545D9D4001F74BF /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		4EE7E5AE1545D9D4001F74BF /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4EE7E5B01545D9D4001F74BF /* DataViewController.h */ = {isa = PBXFileReference; path = DataViewController.h; sourceTree = "<group>"; };
+		4EE7E5B11545D9D4001F74BF /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		4EE7E5B31545D9D4001F74BF /* ModelController.h */ = {isa = PBXFileReference; path = ModelController.h; sourceTree = "<group>"; };
+		4EE7E5B41545D9D4001F74BF /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		4EE7E5B71545D9D4001F74BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4EE7E5BA1545D9D4001F74BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE7E5941545D9D4001F74BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE7E59C1545D9D4001F74BF /* UIKit.framework in Frameworks */,
+				4EE7E59E1545D9D4001F74BF /* Foundation.framework in Frameworks */,
+				4EE7E5A01545D9D4001F74BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE7E58C1545D9D3001F74BF = {
+			isa = PBXGroup;
+			children = (
+				4EE7E5A11545D9D4001F74BF /* thirdeye */,
+				4EE7E59A1545D9D4001F74BF /* Frameworks */,
+				4EE7E5981545D9D4001F74BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EE7E5981545D9D4001F74BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE7E5971545D9D4001F74BF /* thirdeye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE7E59A1545D9D4001F74BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EE7E59B1545D9D4001F74BF /* UIKit.framework */,
+				4EE7E59D1545D9D4001F74BF /* Foundation.framework */,
+				4EE7E59F1545D9D4001F74BF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EE7E5A11545D9D4001F74BF /* thirdeye */ = {
+			isa = PBXGroup;
+			children = (
+				4EE7E5AA1545D9D4001F74BF /* AppDelegate.h */,
+				4EE7E5AB1545D9D4001F74BF /* AppDelegate.m */,
+				4EE7E5AD1545D9D4001F74BF /* RootViewController.h */,
+				4EE7E5AE1545D9D4001F74BF /* RootViewController.m */,
+				4EE7E5B01545D9D4001F74BF /* DataViewController.h */,
+				4EE7E5B11545D9D4001F74BF /* DataViewController.m */,
+				4EE7E5B31545D9D4001F74BF /* ModelController.h */,
+				4EE7E5B41545D9D4001F74BF /* ModelController.m */,
+				4EE7E5B61545D9D4001F74BF /* MainStoryboard_iPhone.storyboard */,
+				4EE7E5B91545D9D4001F74BF /* MainStoryboard_iPad.storyboard */,
+				4EE7E5A21545D9D4001F74BF /* Supporting Files */,
+			);
+			path = thirdeye;
+			sourceTree = "<group>";
+		};
+		4EE7E5A21545D9D4001F74BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EE7E5A31545D9D4001F74BF /* thirdeye-Info.plist */,
+				4EE7E5A41545D9D4001F74BF /* InfoPlist.strings */,
+				4EE7E5A71545D9D4001F74BF /* main.m */,
+				4EE7E5A91545D9D4001F74BF /* thirdeye-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EE7E5961545D9D4001F74BF /* thirdeye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE7E5BE1545D9D4001F74BF /* Build configuration list for PBXNativeTarget "thirdeye" */;
+			buildPhases = (
+				4EE7E5931545D9D4001F74BF /* Sources */,
+				4EE7E5941545D9D4001F74BF /* Frameworks */,
+				4EE7E5951545D9D4001F74BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thirdeye;
+			productName = thirdeye;
+			productReference = 4EE7E5971545D9D4001F74BF /* thirdeye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE7E58E1545D9D3001F74BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Yale University";
+			};
+			buildConfigurationList = 4EE7E5911545D9D3001F74BF /* Build configuration list for PBXProject "thirdeye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EE7E58C1545D9D3001F74BF;
+			productRefGroup = 4EE7E5981545D9D4001F74BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EE7E5961545D9D4001F74BF /* thirdeye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EE7E5951545D9D4001F74BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE7E5A61545D9D4001F74BF /* InfoPlist.strings in Resources */,
+				4EE7E5B81545D9D4001F74BF /* MainStoryboard_iPhone.storyboard in Resources */,
+				4EE7E5BB1545D9D4001F74BF /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE7E5931545D9D4001F74BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE7E5A81545D9D4001F74BF /* main.m in Sources */,
+				4EE7E5AC1545D9D4001F74BF /* AppDelegate.m in Sources */,
+				4EE7E5AF1545D9D4001F74BF /* RootViewController.m in Sources */,
+				4EE7E5B21545D9D4001F74BF /* DataViewController.m in Sources */,
+				4EE7E5B51545D9D4001F74BF /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EE7E5A41545D9D4001F74BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE7E5A51545D9D4001F74BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4EE7E5B61545D9D4001F74BF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE7E5B71545D9D4001F74BF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4EE7E5B91545D9D4001F74BF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE7E5BA1545D9D4001F74BF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EE7E5BC1545D9D4001F74BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EE7E5BD1545D9D4001F74BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EE7E5BF1545D9D4001F74BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "thirdeye/thirdeye-Prefix.pch";
+				INFOPLIST_FILE = "thirdeye/thirdeye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4EE7E5C01545D9D4001F74BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "thirdeye/thirdeye-Prefix.pch";
+				INFOPLIST_FILE = "thirdeye/thirdeye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE7E5911545D9D3001F74BF /* Build configuration list for PBXProject "thirdeye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE7E5BC1545D9D4001F74BF /* Debug */,
+				4EE7E5BD1545D9D4001F74BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE7E5BE1545D9D4001F74BF /* Build configuration list for PBXNativeTarget "thirdeye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE7E5BF1545D9D4001F74BF /* Debug */,
+				4EE7E5C01545D9D4001F74BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE7E58E1545D9D3001F74BF /* Project object */;
+}
