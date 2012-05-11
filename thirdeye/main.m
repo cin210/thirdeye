@@ -2,17 +2,15 @@
 //  main.m
 //  thirdeye
 //
-//  Created by Kathryn Saxton on 4/23/12.
-//  Copyright (c) 2012 Yale University. All rights reserved.
+//  Created by Christopher Neale on 4/23/12.
+//  Copyright (c) 2012 New York University. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-
-#import "AppDelegate.h"
-
+ 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, nil);
     }
 }
